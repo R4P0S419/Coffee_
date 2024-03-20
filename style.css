@@ -1,0 +1,91 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(138, 112, 67);
+}
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: rgb(138, 112, 67);
+}
+
+.nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+
+    background-color: #f8dcdc;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+}
+
+.section-title {
+    font-family: Madimi One, serif;
+} 
+
+.section-title-h1 {
+    font-family: Madimi One, serif;
+    font-size: 36px;
+}
+
+.section-title span {
+    color: rgb(138, 112, 67);
+}
+
+.colored-text {
+    color: rgb(138, 112, 67);
+}
+
+#sobre-loja {
+    background-color: rgba(138, 112, 67, 0.253);
+} 
+
+.nav-cardapio .nav-link {
+    color:rgb(138, 112, 67);
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(138, 112, 67);
+    color: #fff;
+}
+
+.nav-cardapio .nav-link.active:hover {
+    background-color: rgb(138, 112, 67);
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color:  rgb(138, 112, 67);;
+}
+
+.color-w {
+    color: #fff;
+}
+
+.color-r {
+    color:  rgb(138, 112, 67);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 200px;
+    }
+}
+
